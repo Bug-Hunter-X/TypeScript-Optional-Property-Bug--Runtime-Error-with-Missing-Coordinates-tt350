@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in TypeScript related to optional properties. The `printCoord` function expects an object with `x` and `y` properties. However, if either property is missing, TypeScript's type checking won't catch it, leading to a runtime error. The solution demonstrates how to handle optional properties safely.
